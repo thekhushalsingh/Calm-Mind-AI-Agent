@@ -18,7 +18,7 @@ CalmMind is a gentle, empathetic, and privacy-focused mental health web companio
 
 ## 📸 Live Demo
 
-🔗 [https://your-live-url.onrender.com](https://calm-mind.onrender.com/)
+🔗 [Calm Mind](https://calm-mind.onrender.com/)
 
 ---
 
