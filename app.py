@@ -9,8 +9,8 @@ app = Flask(__name__)
 
 # Set your SambaNova API key and base URL
 client = OpenAI(
-    api_key= "285baf5e-715e-4779-bca3-f56a1e9c5cd0",
-    base_url="https://api.sambanova.ai/v1",
+    api_key= "-----", 
+    base_url="-----",
 )
 
 SYSTEM_PROMPT = (
@@ -32,7 +32,7 @@ def chat():
 
     try:
         response = client.chat.completions.create(
-            model="Llama-4-Maverick-17B-128E-Instruct",  # from your working example
+            model="--------",  # from your working example- gpt-4.0, lama
             messages=[
                 {"role": "system", "content": SYSTEM_PROMPT},
                 {"role": "user", "content": user_message}
